@@ -1,0 +1,9 @@
+#!/user/bin/bash
+
+#Some Variables
+
+my_var_3='Three'
+
+function import_me () {
+    echo "This is a common pattern"
+}
