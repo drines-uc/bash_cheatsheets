@@ -1,13 +1,17 @@
 #!/usr/bin/bash
+source waitforit
 
 echo "The number of cmdline arguments is " $#
 echo "The cmdline input is " $@
 echo "The first argument is " $1
 echo "The second argument is " $2
+waitforit
+
 
 echo
 echo
 echo "What is the value of $0 ??? -->>" $0 
+waitforit
 
 echo "Lets get some user input..."
 echo "What is your favoriate color??"
