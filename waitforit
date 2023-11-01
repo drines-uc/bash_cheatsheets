@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+function waitforit () { read -n 1; }
